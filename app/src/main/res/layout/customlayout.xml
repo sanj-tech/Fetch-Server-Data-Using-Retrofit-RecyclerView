@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="id"/>
+
+    <TextView
+        android:id="@+id/txtAlbumId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="albumId"/>
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="title"/>
+
+
+<!--    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--        android:id="@+id/photourl"-->
+<!--        android:layout_width="343dp"-->
+<!--        android:layout_height="119dp"-->
+<!--        android:layout_marginLeft="50dp"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@mipmap/ic_launcher" />-->
+
+
+    <ImageView
+        android:id="@+id/photoimage"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:src="@mipmap/ic_launcher" />
+
+
+
+
+
+</androidx.cardview.widget.CardView>
